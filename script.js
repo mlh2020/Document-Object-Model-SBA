@@ -1,6 +1,7 @@
 // Define the sound effects and background music
 const clickSound = new Audio('cardFlip.wav');
 const errorSound = new Audio('errorSound.wav');
+const startSound = new Audio('startSound.wav');
 const backgroundMusic = new Audio('backgroundLoop.wav');
 backgroundMusic.loop = true; // Enable looping for the background music
 
