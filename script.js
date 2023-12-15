@@ -86,6 +86,7 @@ function prepareBoard() {
 // Function to start the game
 function startGame() {
     backgroundMusic.play(); // Start the background music
+    startSound.play();// Play the starting sound effect when game is reset
     // Briefly show all cards before starting the game
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
@@ -146,5 +147,5 @@ window.onload = function() {
     shuffleCards();
     prepareBoard();
     // Attach event listener to the start button
-    document.getElementById('startButton').addEventListener('click', startGame);
+    document.getElementById('startButton').addEventListener('click', startGame); 
 };
