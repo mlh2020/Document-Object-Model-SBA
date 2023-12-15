@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 2s; /* Smooth transition for background color */
+    background-color: red; /* Initial background color */
+}
+
+#board{
+    height: 532px;
+    width: 475px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border: 10px solid black;
+
+}
+
+.card {
+    height: 128px;
+    width: 90px;
+    margin: 2.5px;
+}
